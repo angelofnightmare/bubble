@@ -1,7 +1,8 @@
 #include <iostream>
 
 int main() {
-    int i, j, size = 5, l = 0, r = 0;
+    const int size = 5;
+    int i, j, l = 0, r = 0;
 
     int a[size][size];
 

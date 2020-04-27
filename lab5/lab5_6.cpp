@@ -1,9 +1,8 @@
 #include <iostream>
 
 int main() {
+    const int column = 8, row = 5,
     int i, j,
-            column = 8,
-            row = 5,
             arrFirst[column][row],
             arrSecond[column][row],
             result[column][row];

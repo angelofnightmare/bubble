@@ -2,7 +2,7 @@
 
 int main() {
 
-    int size = 7;
+    const int size = 7;
     double highest = 0, lowest = 0, arr[size];
 
     for (int i = 0; i < size; ++i) {
